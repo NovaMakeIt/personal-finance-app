@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: 'PublicSansBold1';
+      font-style: normal;
+      font-display: swap;
+      src: url(./assets/fonts/static/PublicSans-Bold.ttf) format('truetype');
+    }
+    @font-face {
+        font-family: 'PublicSansBold2';
+        font-style: normal;
+        font-display: swap;
+        src: url(./assets/fonts/static/PublicSans-Bold.ttf) format('truetype');
+    }
+    @font-face {
+        font-family: 'PublicSansBold3';
+        font-style: normal;
+        font-display: swap;
+        src: url(./assets/fonts/static/PublicSans-Bold.ttf) format('truetype');
+    }
+    @font-face {
+        font-family: 'PublicSansRegular4';
+        font-style: normal;
+        font-display: swap;
+        src: url(./assets/fonts/static/PublicSans-Regular.ttf) format('truetype');
+    }
+    @font-face {
+        font-family: 'PublicSansBold4';
+        font-style: normal;
+        font-display: swap;
+        src: url(./assets/fonts/static/PublicSans-Bold.ttf) format('truetype');
+    }
+    @font-face {
+        font-family: 'PublicSansRegular5';
+        font-style: normal;
+        font-display: swap;
+        src: url(./assets/fonts/static/PublicSans-Regular.ttf) format('truetype');
+    }
+    @font-face {
+        font-family: 'PublicSansBold5';
+        font-style: normal;
+        font-display: swap;
+        src: url(./assets/fonts/static/PublicSans-Bold.ttf) format('truetype');
+    }
+  }
