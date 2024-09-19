@@ -33,6 +33,16 @@ export default {
       width: {
         '73': '18.75rem'
       },
+      spacing: {
+        '50': '4px',
+        '100': '8px',
+        '150': '12px',
+        '200': '16px',
+        '250': '20px',
+        '300': '24px',
+        '400': '32px',
+        '500': '40px',
+      },
       fontFamily: {
         'TextPreset1': ['PublicSansBold1','sans-serif'],
         'TextPreset2': ['PublicSansBold2','sans-serif'],
