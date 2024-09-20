@@ -31,7 +31,8 @@ export default {
         'White': '#FFFFFF',
       },
       width: {
-        '73': '18.75rem'
+        '73': '18.75rem',
+        '22': '88px'
       },
       spacing: {
         '50': '4px',
