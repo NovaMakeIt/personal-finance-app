@@ -23,7 +23,7 @@ export function Sidebar() {
         <div className="px-400 py-500">
             {isMinimized ? <LogoSmall /> : <LogoLarge />}
         </div>
-        <div className="pr-300 space-y-50 flex-grow">
+        <div className={`space-y-50 flex-grow ${isMinimized ? 'pr-100' : 'pr-300'}`}>
             <InputSidebar icon={<IconOverview />} name={`${isMinimized ? '' : 'Overview'}`} />
             <InputSidebar icon={<IconTransactions />} name={`${isMinimized ? '' : 'Transactions'}`} />
             <InputSidebar icon={<IconBudgets />} name={`${isMinimized ? '' : 'Budgets'}`} />
@@ -31,7 +31,7 @@ export function Sidebar() {
             <InputSidebar icon={<IconRecurringBills />} name={`${isMinimized ? '' : 'Recurring Bills'}`} />
         </div>
         <button onClick={toggleSidebar} className="group w-full flex px-400 py-200 space-x-200 items-center">
-            <IconMinimizeMenu className={`group-hover:fill-Grey100  ${isMinimized ? 'rotate-180' : 'rotate-0'}`} />
+            <IconMinimizeMenu className={`group-hover:fill-Grey100 duration-100 ${isMinimized ? 'rotate-180' : 'rotate-0'}`} />
             <h3 className={`${isMinimized ? 'hidden' : 'text-Grey300 group-hover:text-Grey100 font-TextPreset3 text-TextPreset3'}`}>Minimize Menu</h3>
         </button>
     </div>
