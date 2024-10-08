@@ -32,7 +32,15 @@ export default {
       },
       width: {
         '73': '18.75rem',
-        '22': '88px'
+        '22': '88px',
+        '247': '247px',
+        
+      },
+      minWidth: {
+        '608': '608px',
+      },
+      height: {
+        '240': '240px',
       },
       spacing: {
         '50': '4px',
