@@ -1,5 +1,6 @@
 import { BudgetsOverview } from "../budgets/BudgetsOverview";
 import { PotsOverview } from "../pots/PotsOverview";
+import { RecurringBillsOverview } from "../recurring-bills/RecurringBillsOverview";
 import { TransactionOverview } from "../transactions/TransactionsOverview";
 
 export function CardComponents() {
@@ -10,6 +11,7 @@ export function CardComponents() {
         </div>
         <div className="space-y-300 w-full">
             <BudgetsOverview />
+            <RecurringBillsOverview />
         </div>
     </div>
     )
