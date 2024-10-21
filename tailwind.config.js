@@ -52,6 +52,13 @@ export default {
         '400': '32px',
         '500': '40px',
       },
+      screens: {
+        'mobile': '375px',
+  
+        'tablet': '768px',
+  
+        'desktop': '1440px',
+      },
       fontFamily: {
         'TextPreset1': ['PublicSansBold1','sans-serif'],
         'TextPreset2': ['PublicSansBold2','sans-serif'],

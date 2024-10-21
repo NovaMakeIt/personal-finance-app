@@ -9,7 +9,7 @@ export function PotsOverview() {
 
     return(<div className="rounded-xl space-y-250 p-400 bg-White">
         <TitleCardComponents name={'Pots'} buttonName={'See Details'} />
-        <div className="flex space-x-250">
+        <div className="flex tablet:space-x-250 max-tablet:space-y-250 max-tablet:flex-col">
             <div className="flex w-full space-x-200 p-200 rounded-xl items-center bg-Beige100">
                 <IconPot />
                 <div className="flex flex-col justify-between">

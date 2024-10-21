@@ -1,7 +1,7 @@
 import data from "./../../assets/datas/data.json"
 
 export function CardBalance() {
-    return(<div className="flex w-full space-x-300">
+    return(<div className="flex w-full tablet:space-x-300 max-tablet:flex-col max-tablet:space-y-150">
         <SingleCardBalance name={'Current Balance'} dollarvalue={data.balance.current} color={'bg-Grey900 text-White'} />
         <SingleCardBalance name={'Income'} dollarvalue={data.balance.income} color={'bg-White'} textColor={'text-Grey500'} textColor2={'text-Grey900'} />
         <SingleCardBalance name={'Expenses'} dollarvalue={data.balance.expenses} color={'bg-White'} textColor={'text-Grey500'} textColor2={'text-Grey900'} />
